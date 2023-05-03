@@ -204,8 +204,8 @@ def run_test(mod, matrix):
 if __name__ == "__main__":
     mod = 6
     matrix = [
-    [1, 0, 2, 6 - 0],
-    [2, 0, 0, 6 - 2],
-    [0, 4, 3, 6 - 3]
+    [1, 0, 2, mod - 0],
+    [2, 0, 0, mod - 2],
+    [0, 4, 3, mod - 3]
     ]
     run_test(mod, matrix)
